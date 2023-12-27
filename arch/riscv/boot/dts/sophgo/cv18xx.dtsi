@@ -125,9 +125,9 @@
 			interrupts = <29 IRQ_TYPE_LEVEL_HIGH>;
 			#dma-cells = <1>;
 			dma-channels = <4>;
-			snps,dma-masters = <1>;
+			snps,dma-masters = <2>;
 			snps,data-width = <3>;
-			snps,block-size = <65536 65536 65536 65536>;
+			snps,block-size = <1024 1024 1024 1024>;
 			snps,priority = <0 1 2 3>;
 			snps,axi-max-burst-len = <16>;
 		};
