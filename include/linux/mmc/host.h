@@ -517,7 +517,7 @@ struct mmc_host {
 #ifdef CONFIG_MMC_CRYPTO
 	struct blk_crypto_profile crypto_profile;
 #endif
-
+	bool			ever_unplugged;
 	/* Host Software Queue support */
 	bool			hsq_enabled;
 
